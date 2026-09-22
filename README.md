@@ -13,6 +13,3 @@ This repository provides implementations for two distinct Bayesian latent variab
 *   **[CLVM (Continuous Latent Variable Model)](./CLVM/README.md):** A flexible approach that captures heterogeneity in signal strength across interaction pairs.
 
 Each model is implemented with efficient MCMC sampling schemes. Detailed instructions, model parameters, and usage examples are available within each respective folder.
-
----
-*For questions or collaborations, please contact [Your Name/Email].*
