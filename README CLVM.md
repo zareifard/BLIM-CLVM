@@ -65,7 +65,6 @@ url <- "https://raw.githubusercontent.com/zareifard/BLIM-CLVM/main/GM.txt"
 tmp <- tempfile(fileext = ".txt")
 download.file(url, destfile = tmp, mode = "wb")
 D <- read.table(tmp, header = FALSE)
-stopifnot(nrow(D) == 1000L, ncol(D) == 9L)
 ```
 
 Construct the response, design matrix, and marginal counts:
